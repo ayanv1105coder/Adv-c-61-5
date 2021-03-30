@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #00f9ff, #be03fd, #53b7d2, #bb2167, #baa59f, #9ee5b8, #08415d, #ffe45e, #3cdb84, #7a667d);
+}
+
+#img1 {
+    width: 175px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50x;
+}
+
+p {
+    font-size: 30;
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    background-color: dodgerblue;
+        border-width: 5px;
+    border-color: aliceblue;
+}
+
+
+.contact_1 h3 {
+    display: inline;
+    color: black;
+    text-shadow: none;
+    text-decoration: none;
+
+}
+
+.img1 {
+    height: 500px;
+    width: 40%;
+    transition: transform 0.2;
+    border-radius: 10;
+    border-color: blue;
+}
+
+.img1:hover {
+    transform: scale(0.9)
+}
+#app{
+    width: 100%;
+    height: 800px;
+}
+#game{
+    width: 100%;
+    height: 800px;
+}
+#ca{
+    width: 100%;
+    height: 800px;
+}
